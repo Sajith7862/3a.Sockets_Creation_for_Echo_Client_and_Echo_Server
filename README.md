@@ -1,5 +1,6 @@
-# 3a.CREATION FOR ECHO CLIENT AND ECHO SERVER USING TCP SOCKETS
-
+# EXP : 3a.CREATION FOR ECHO CLIENT AND ECHO SERVER USING TCP SOCKETS
+## NAME : MOHAMED HAMEEM SAJITH J
+## REG NO : 212223240090
 # AIM :
 To write a python program for creating Echo Client and Echo Server using TCP
 Sockets Links.
@@ -15,10 +16,6 @@ Sockets Links.
 
 ### CLIENT :
 ```
-
-NAME: MOHAMED HAMEEM SAJITH J
-REG NO:212223240090
-
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
@@ -30,9 +27,6 @@ while True:
 ```
 ### SERVER :
 ```
-NAME: MOHAMED HAMEEM SAJITH J
-REG NO:212223240090
-
 import socket
 s=socket.socket()
 s.bind(('localhost',8000))
